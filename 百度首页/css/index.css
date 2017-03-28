@@ -1,0 +1,311 @@
+@charset "utf-8";
+html,
+body {
+    height: 100%;
+}
+.box{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    -moz-font:14px;
+    font: 12px arial;
+    
+    min-width: 900px;
+    min-height: 600px;
+    position: relative;
+}
+
+header {
+    margin-right: 0px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    -moz-font:14px arial;
+}
+
+header nav {
+    width: 450px;
+    float: right;
+}
+
+header nav a {
+    margin-left: 16px;
+    margin-left: 17px\9;
+    font-size: 0.8em;
+    color: black;
+}
+
+aside {
+    background: #F9F9F9;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 85px;
+    z-index: 10;
+    display: none;
+}
+
+aside #first_a div {
+    height: 48px;
+    line-height: 48px;
+    height: 52px\9;
+    line-height: 52px\9;
+}
+
+.aside_icon {
+    width: 40px;
+    width: 38px\9;
+    margin-left: 22.5px;
+    background-size: 280px 40px;
+    background-repeat: no-repeat;
+    background-image: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/bdbri_icons_0a62ce1.png);
+}
+
+#one_d {
+    background-position: -80px 0px;
+    background-position: -73px 0px\9;
+}
+
+#two_d {
+    background-position: -122px 0px;
+    background-position: -112px 0px\9;
+}
+
+#there_d {
+    background-position: -39px 0px;
+    background-position: -35px 0px\9;
+
+}
+
+#four_d {
+    background-position: -160px 0px;
+    background-position: -145px 0px\9;
+}
+
+#five_d {
+    background-position: -201px 0px;
+    background-position: -180px 0px\9;
+}
+
+#set-pf .sj {
+    top: 15px; //三角
+    left: 32px;
+    width: 0px;
+    height: 0px;
+    display: block;
+    position: absolute;
+    border: :5px solid transparent;
+    border-style: dashed dashed solid dashed;
+    border-bottom-color: #d8d8d8;
+}
+
+#set-pf {
+    position: absolute;
+    top: 16.5px;
+    top:18px\9;
+    right: 66px\9;
+    right: 68px;
+    z-index: 100;
+    text-align: center;
+    display: none;
+}
+
+#pf {
+    margin-top: 8px;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0px 0px 5px 3px #e4e4e4;
+}
+
+#pf a {
+    display: block;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+}
+#pf a:hover{
+    color: white;
+    background: #3385FF;
+}
+aside a {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: black;
+}
+
+aside a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+aside hr {
+    border: none;
+    background-color: #e4e4e4;
+    height: 1px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+aside a div {
+    width: 60px;
+    margin-left: 12.5px;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
+
+aside a div p {
+    position: relative;
+    top: 44px;
+}
+
+header nav a:last-child {
+    font-weight: 900;
+    padding: 1%;
+    color: white;
+    background: blue;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: blue;
+}
+
+section {
+    width: 842px;
+    height: 191px;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -421px;
+}
+
+section img {
+    width: 270px;
+    height: 129px;
+}
+
+section #fromBox {
+    border: 1px solid #e4e4e4;
+    width: 638px;
+    height: 36px;
+    display: inline-block;
+}
+section #fromBox:hover{
+    border: 1px solid #f3f3f3;
+}
+#b_text {
+    border-left: 1px solid #e4e4e4;
+    height: 14px;
+    display: inline-block;
+    line-height: 36px;
+}
+section #search_text {
+    border: none;
+    outline: none;
+    width: 460px;
+    height: 22px;
+}
+section #submiet {
+    height: 36px;
+}
+
+section form #s_text {
+    width: 24px;
+    height: 36px;
+    background: url("../img/a.png") no-repeat center;
+    line-height: 36px;
+    vertical-align: middle;
+    background-size: 20px 20px;
+    display: inline-block;
+}
+
+#s_text:hover {
+    background: url("../img/b.png") no-repeat center;
+    background-size: 20px 20px;
+}
+
+section form #p_text {
+    display: inline-block;
+    background: url("../img/c.png") no-repeat center;
+    vertical-align: middle;
+    background-size: 18px 20px;
+    width: 37px;
+    height: 36px;
+}
+
+#p_text:hover {
+    background: url("../img/d.png") no-repeat center;
+    background-size: 18px 20px;
+}
+
+section form input[type="text"] {
+    width: 460px;
+    height: 36px;
+}
+
+section form button {
+    width: 100px;
+    height: 37px;
+    background: blue;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    right: 0px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 191px;
+    color: #999;
+}
+
+footer a {
+    color: #999;
+}
+
+footer #qr #code img {
+    width: 60px;
+    height: 60px;
+}
+
+footer #footer_text a {
+    margin-left: 22px;
+}
+
+.icon {
+    width: 14px;
+    height: 17px;
+    display: -webkit-inline-box;
+    background-size: 1500px 520px;
+    background-repeat: no-repeat;
+    background-image: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png);
+}
+
+#i_one {
+    background-position: -600px -95px;
+}
+
+#i_two {
+    background-position: -623px -95px;
+}
+
+.address {
+    margin-left: 15px;
+}

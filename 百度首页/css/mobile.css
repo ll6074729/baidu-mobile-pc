@@ -1,0 +1,221 @@
+/*设置PC隐藏mobile显示*/
+#box {
+	display: none;
+}
+
+.mobile {
+	display: block;
+}
+/*设置字体大小*/
+html {
+	font-size: 62.5%;
+	margin:0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+header {
+	font-size: 1.5rem;
+	color: #999;
+	height: 40px;
+	position: relative;
+	// padding: 0 20px;
+}
+
+header .h_l {
+	position: absolute;
+	left: 0;
+	width: 14rem;
+	height: 3rem;
+}
+
+header .h_l span {
+	background:#eee url("../pic/weather.png") no-repeat;
+	display: inline-block;
+	background-size: 28px;
+	width: 28px;
+	height: 28px;
+	vertical-align: top;
+}
+
+header .h_l h2 {
+	display: inline-block;
+	position: relative;
+	top: -1.2rem;
+	font-size: 2rem;
+}
+
+header .h_l .h_city {
+    display: inline-block;
+    position: relative;
+    top: -12px;
+}
+header .h_l .h_city .h_city_list:after{
+	content: '\e814';
+    color: #b6b7ba;
+    font: 20px/1 icons;
+}
+header .h_l .h_city p {
+	line-height: 1;
+	margin-top: -1rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+header .h_r {
+	position: absolute;
+	right: 0;
+	height: 3rem;
+	padding-right: 1rem;
+}
+
+header .h_r i {
+	margin-left: 2rem;
+	font-size: 2.2rem;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAHOUlEQ…lGnAiCc0rlpqqYArpbmHNKW0wIzhNwMcR4dn2UtRNwnwJMCmDwBCSMyQAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header .h_r a {
+	color: #999;
+}
+/*目前手机最小也就320px，以防页面过度变形*/
+html,body {
+	min-width: 320px;
+	background-color: #eee;
+}
+
+/*搜索框*/
+.search-form {
+	/*防止盒子变形，使用怪医盒模型*/
+	box-sizing: border-box;
+	padding-left: 0 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.search-form img {
+	width: 17.5rem;
+	height: 8.5rem;
+	margin-bottom: 5px;
+}
+
+.search-form .search-div {
+	display: flex;
+	box-sizing: border-box;
+	position: relative;
+
+}
+
+.search-form .search-div .search-input {
+	/*搜索框大小可以变化*/
+	-webkit-flex-grow: 1; 
+	font-size: 20px;
+	box-sizing: border-box;
+	height: 4rem;
+	padding-left: 5px;
+	border:1px solid #aaa;
+	border-right: 1px solid #38f;
+	outline: none;
+}
+
+.search-form .search-div .search-input:focus {
+	border-color: #38f;
+}
+
+.search-form .search-div .search-btn {
+	-webkit-flex-grow: 0;
+	font-size: 1.8rem;
+	min-width: 8rem;
+	width: 8rem;
+	height: 4rem;
+	border:none;
+	background-color: #38f;
+	color:#fff;
+	outline: none;
+}
+
+.search-form .search-div .search-btn:hover {
+	background-color: #1c76f3;
+}
+
+.search-form .search-div .icon-mic {
+	font-size: 3rem;
+	position: absolute;
+	right: 9rem;
+	color:#999;
+	top: 0.8rem;
+}
+/*页面导航栏*/
+.content-nav {
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+}
+.content-nav a{
+	flex:1;
+	-webkit-flex:1;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto;
+	height: 43px;
+}
+
+.content-nav a .icon{
+
+	display: block;
+	height: 22px;
+	width: 22px;
+	margin 8px auto;
+	background-size: 100% 100%;
+	background: url(https://gss0.bdstatic.com/5bd1bjqh_Q23odCf/static/wiseindex/img/ns_diff_color_v2_3d39b4dd.png) no-repeat;
+}
+/*页脚*/
+footer {
+	padding: 0 2rem 1rem;
+}
+
+footer ul {
+	list-style: none;
+	margin-left: -4rem;
+}
+
+footer ul li {
+	height: 3rem;
+	line-height: 3rem;
+	vertical-align: middle;
+	position: relative;
+	font-size: 1.3rem;
+	color: #666;
+}
+
+footer ul li span {
+	background:#eee url("../pic/baiduicon.ico") no-repeat;
+	background-position: 0 2px;
+	background-size: 1.2rem;
+	width: 1.3rem;
+	height: 1.3rem;
+	display: inline-block;
+}
+
+footer .feedback {
+	text-align: center;
+	margin-bottom: 2rem;
+	color: #666;
+	font-size: 1.5rem;
+}
+
+footer .feedback i {
+	color: #ccc;
+}
+
+footer a {
+	display: block;
+	margin-bottom: 1rem;
+	text-align: center;
+}
